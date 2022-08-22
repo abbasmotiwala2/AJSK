@@ -1,0 +1,31 @@
+.skill-lt:not(:first-child) {
+    margin-top: 30px;
+}
+.skill-lt h6 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+.skill-lt .skill-bar {
+    position: relative;
+    background: #eee;
+}
+.skill-lt .skill-bar .skill-bar-in {
+    width: 0px;
+    height: 5px;
+    position: relative;
+}
+.skill-lt .skill-bar .skill-bar-in span {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    font-size: 14px;
+}
+.skill-lt.md .skill-bar .skill-bar-in {
+    height: 8px;
+}
+.skill-lt.lg .skill-bar .skill-bar-in {
+    height: 10px;
+}
+.skill-lt.light .skill-bar {
+    background: var(--bs-primary);
+}
